@@ -1,8 +1,22 @@
 # OneFootball
 
+This is application to drag and drop (visualize) football players from list to field.
+
+Application was deployed on Heroku: [Link to the web app](https://onefootball.herokuapp.com/)
+
+Run application:
+```
+1. npm install -g @angular/cli
+2. Clone project (git clone https://github.com/Rostyy/oneFootball.gitt)
+3. cd oneFootball
+4. npm install
+5. ng serve ---> Navigate to `http://localhost:4200/` (by default)
+```
+(was developed in Node -v 8.0.0)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
-## Development server
+## From Angular documentation:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

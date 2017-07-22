@@ -8,7 +8,7 @@ import { Component, OnChanges, Input, ViewContainerRef } from '@angular/core';
 export class PlayerComponent implements OnChanges {
 
 	@Input() playerData: any;
-	private playerInfo: any;
+	public playerInfo: any;
 
   constructor(private viewContainerRef: ViewContainerRef) { }
 

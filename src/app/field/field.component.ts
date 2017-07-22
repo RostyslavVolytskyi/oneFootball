@@ -1,17 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'field',
   templateUrl: './field.component.html',
   styleUrls: ['./field.component.sass']
 })
-export class FieldComponent implements OnInit {
+export class FieldComponent {
 
 	public playerData: any;
 
   constructor() { }
-
-  ngOnInit() { }
 
   onDrop(data: any, playerComp: any) {
   	let playerId = playerComp.viewContainerRef.element.nativeElement.id;

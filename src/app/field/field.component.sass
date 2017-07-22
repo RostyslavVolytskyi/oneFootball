@@ -1,62 +1,75 @@
 .field
-    background-color: green
+  position: relative
+  background-color: green
+  border: 4px solid white
+
+  .field-circle
+    position: absolute
+    bottom: -2px
+    left: 200px
+    width: 400px
+    height: 200px
     border: 4px solid white
-    .goalkeeper-container
-      display: grid
-      grid-template-columns: 300px 200px 300px
-      grid-template-rows: 200px
+    border-top-left-radius: 800px
+    border-top-right-radius: 800px
+    
+  .goalkeeper-container
+    display: grid
+    grid-template-columns: 200px 400px 200px
+    grid-template-rows: 200px
 
-    =centered-item
-      display: flex
-      justify-content: center
-      align-items: center
-    =only-one-row
-      grid-row-start: 1
-      grid-row-end: 2
+  =centered-item
+    display: flex
+    justify-content: center
+    align-items: center
+  =only-one-row
+    grid-row-start: 1
+    grid-row-end: 2
 
-    .goalkeeper-a
-      grid-column-start: 1
-      grid-column-end: 2
-      +only-one-row
-      +centered-item
+  .goalkeeper-a
+    grid-column-start: 1
+    grid-column-end: 2
+    +only-one-row
+    +centered-item
 
-    .goalkeeper-b
-      grid-column-start: 2
-      grid-column-end: 3
-      +only-one-row
-      +centered-item
+  .goalkeeper-b
+    border: 2px solid white
+    grid-column-start: 2
+    grid-column-end: 3
+    +only-one-row
+    +centered-item
 
-    .goalkeeper-c
-      grid-column-start: 3
-      grid-column-end: 4
-      +only-one-row
-      +centered-item
+  .goalkeeper-c
+    grid-column-start: 3
+    grid-column-end: 4
+    +only-one-row
+    +centered-item
 
-    .row-container
-      display: grid
-      grid-template-columns: 200px 200px 200px 200px
-      grid-template-rows: 200px
+  .row-container
+    display: grid
+    grid-template-columns: 200px 200px 200px 200px
+    grid-template-rows: 200px
 
-    .player-a
-      grid-column-start: 1
-      grid-column-end: 2
-      +only-one-row
-      +centered-item
+  .player-a
+    grid-column-start: 1
+    grid-column-end: 2
+    +only-one-row
+    +centered-item
 
-    .player-b
-      grid-column-start: 2
-      grid-column-end: 3
-      +only-one-row
-      +centered-item
+  .player-b
+    grid-column-start: 2
+    grid-column-end: 3
+    +only-one-row
+    +centered-item
 
-    .player-c
-      grid-column-start: 3
-      grid-column-end: 4
-      +only-one-row
-      +centered-item
+  .player-c
+    grid-column-start: 3
+    grid-column-end: 4
+    +only-one-row
+    +centered-item
 
-    .player-d
-      grid-column-start: 4
-      grid-column-end: 5
-      +only-one-row
-      +centered-item
+  .player-d
+    grid-column-start: 4
+    grid-column-end: 5
+    +only-one-row
+    +centered-item

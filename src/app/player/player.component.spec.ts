@@ -15,8 +15,17 @@ describe('PlayerComponent', () => {
   		firstName: 'Rostyslav',
   		lastName: 'Volytskyi',
   		position: 'forward',
-  		number: '7'
-  	}
+  		number: 7,
+      age: '28',
+      birthDate: '27-10-1988',
+      country: 'Ukraine',
+      height: 173,
+      id: '23',
+      name: 'Rostyslav Volytskyi',
+      thumbnailSrc: 'src/img/...',
+      weight: 71
+  	},
+    playerId: '23'
   };
 
   beforeEach(async(() => {

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewContainerRef } from '@angular/core';
+import { PlayerData } from '../shared/models/player-data.model';
+import { PlayerCompData } from '../shared/models/player-component.model';
 
 @Component({
   selector: 'field',
@@ -7,13 +9,12 @@ import { Component } from '@angular/core';
 })
 export class FieldComponent {
 
-	public playerData: any;
+	playerData: {data: PlayerData; playerId: string};
 
   constructor() { }
 
-  onDrop(data: any, playerComp: any) {
-  	let playerId = playerComp.viewContainerRef.element.nativeElement.id;
+  onDrop(data: PlayerData, playerCompData: PlayerCompData) {
+  	let playerId = playerCompData.viewContainerRef.element.nativeElement.id;
   	this.playerData = {data, playerId};
   }
-
 }

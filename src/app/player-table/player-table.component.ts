@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable'
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { Player } from '../shared/models/player.model'
 
 @Component({
   selector: 'player-table',
@@ -9,7 +10,7 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./player-table.component.sass']
 })
 export class PlayerTableComponent implements OnInit {
-  players: any = [];
+  players: Array<Player> = [];
 
   constructor(private http: Http) { } 
 
@@ -23,6 +24,6 @@ export class PlayerTableComponent implements OnInit {
 		return this.http.get('./assets/team-6.json')
 			.map(response => {
 				return response.json();
-			})
+			});
 	}
 }

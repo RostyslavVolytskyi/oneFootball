@@ -1,4 +1,5 @@
 import { Component, OnChanges, Input, ViewContainerRef } from '@angular/core';
+import { PlayerData } from '../shared/models/player-data.model';
 
 @Component({
   selector: 'player',
@@ -7,8 +8,8 @@ import { Component, OnChanges, Input, ViewContainerRef } from '@angular/core';
 })
 export class PlayerComponent implements OnChanges {
 
-	@Input() playerData: any;
-	public playerInfo: any;
+	@Input() playerData: PlayerData;
+	playerInfo: PlayerData;
 
   constructor(private viewContainerRef: ViewContainerRef) { }
 

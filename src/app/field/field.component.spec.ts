@@ -1,25 +1,26 @@
-// import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-// import { FieldComponent } from './field.component';
+import { FieldComponent } from './field.component';
+import { PlayerComponent } from '../player/player.component';
 
-// describe('FieldComponent', () => {
-//   let component: FieldComponent;
-//   let fixture: ComponentFixture<FieldComponent>;
+describe('FieldComponent', () => {
+  let component: FieldComponent;
+  let fixture: ComponentFixture<FieldComponent>;
 
-//   beforeEach(async(() => {
-//     TestBed.configureTestingModule({
-//       declarations: [ FieldComponent ]
-//     })
-//     .compileComponents();
-//   }));
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ FieldComponent, PlayerComponent ]
+    })
+    .compileComponents();
+  }));
 
-//   beforeEach(() => {
-//     fixture = TestBed.createComponent(FieldComponent);
-//     component = fixture.componentInstance;
-//     fixture.detectChanges();
-//   });
+  beforeEach(() => {
+    fixture = TestBed.createComponent(FieldComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
 
-//   it('should be created', () => {
-//     expect(component).toBeTruthy();
-//   });
-// });
+  it('should be created', () => {
+    expect(component).toBeTruthy();
+  });
+});

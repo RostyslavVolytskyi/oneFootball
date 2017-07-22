@@ -1,0 +1,13 @@
+<div class="player-table">
+  <div class="player-card" *ngFor="let player of players" [myDraggable]="{data: player}">
+    <div class="player-row">
+    <span>
+      <span><b>{{player.name}}</b></span>
+    </span>
+    <span class="player-data">
+      <span>{{player.number}}</span>
+      <span>{{player.position}}</span>
+    </span>
+    </div>
+  </div>
+</div>

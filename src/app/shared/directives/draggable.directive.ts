@@ -1,6 +1,6 @@
 import { Directive, HostListener, HostBinding, Input } from '@angular/core';
 
-import { DragService } from './drag.service';
+import { DragService } from '../services/drag.service';
 
 @Directive({
   selector: '[myDraggable]'

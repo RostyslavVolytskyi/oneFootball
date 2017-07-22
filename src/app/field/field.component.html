@@ -1,0 +1,26 @@
+  <div class="field">
+    <div class="goalkeeper-container">
+      <span class="goalkeeper-a"></span>
+      <player id="goalkeeper" class="goalkeeper-b" #goalkeeper myDropTarget (myDrop)="onDrop($event, goalkeeper)" [playerData]="playerData"></player>
+      <span class="goalkeeper-c"></span>
+    </div>
+
+    <div class="row-container">
+      <player id="defender-left" class="player-a" #defenderLeft myDropTarget (myDrop)="onDrop($event, defenderLeft)" [playerData]="playerData"></player>
+      <player id="defender-left-center" class="player-b" #defenderLeftCenter myDropTarget (myDrop)="onDrop($event, defenderLeftCenter)" [playerData]="playerData"></player>
+      <player id="efender-right-center" class="player-c" myDropTarget #defenderRightCenter (myDrop)="onDrop($event, defenderRightCenter)" [playerData]="playerData"></player>
+      <player id="defender-right" class="player-d" myDropTarget #defenderRight (myDrop)="onDrop($event, defenderRight)" [playerData]="playerData"></player>
+    </div>
+    <div class="row-container">
+      <player id="midfielder-left" class="player-a" myDropTarget #midfielderLeft (myDrop)="onDrop($event, midfielderLeft)" [playerData]="playerData"></player>
+      <player id="midfielder-left-center" class="player-b" myDropTarget #midfielderLeftCenter (myDrop)="onDrop($event, midfielderLeftCenter)" [playerData]="playerData"></player>
+      <player id="midfielder-right-center" class="player-c" myDropTarget #midfielderRightCenter (myDrop)="onDrop($event, midfielderRightCenter)" [playerData]="playerData"></player>
+      <player id="midfielder-right" class="player-d" myDropTarget #midfielderRight (myDrop)="onDrop($event, midfielderRight)" [playerData]="playerData"></player>
+    </div>
+    <div class="row-container">
+      <span class="player-a"></span>
+      <player id="forward-left" class="player-b" myDropTarget #forwardLeft (myDrop)="onDrop($event, forwardLeft)" [playerData]="playerData"></player>
+      <player id="forward-right" class="player-c" myDropTarget #forwardRight (myDrop)="onDrop($event, forwardRight)" [playerData]="playerData"></player>
+      <span class="player-d"></span>
+    </div> 
+  </div>

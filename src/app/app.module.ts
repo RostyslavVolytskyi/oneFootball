@@ -1,21 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
-import { HttpModule } from '@angular/http';
+import { PlayerTableComponent } from './player-table/player-table.component';
+import { FieldComponent } from './field/field.component';
 import { PlayerComponent } from './player/player.component';
 
-import { DragService } from './drag.service';
-import { DraggableDirective } from './draggable.directive';
-import { DropTargetDirective } from './drop-target.directive';
+import { DragService } from './shared/services/drag.service';
+import { DraggableDirective } from './shared/directives/draggable.directive';
+import { DropTargetDirective } from './shared/directives/drop-target.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
     DraggableDirective,
-    DropTargetDirective
+    DropTargetDirective,
+    PlayerTableComponent,
+    FieldComponent
   ],
   imports: [
     BrowserModule,

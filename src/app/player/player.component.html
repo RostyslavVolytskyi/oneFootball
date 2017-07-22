@@ -1,10 +1,9 @@
-<div class="icon" *ngIf="!playerData"></div>
-<div *ngIf="playerData" class="player-profile">
-	<img src="{{playerData.thumbnailSrc}}" alt="playe photo">
+<div class="icon" *ngIf="!playerInfo"></div>
+<div *ngIf="playerInfo" class="player-profile">
+	<img src="{{playerInfo.data.thumbnailSrc}}" alt="playe photo">
 	<div class='player-data'>
-		<span>{{playerData.firstName}} {{playerData.lastName}}</span>
-		<span>Position: {{playerData.position}}</span>
-		<span>Number: {{playerData.number}}</span>
+		<span>{{playerInfo.data.firstName}} {{playerInfo.data.lastName}}</span>
+		<span>Position: {{playerInfo.data.position}}</span>
+		<span>Number: {{playerInfo.data.number}}</span>
 	</div>
-
 </div>

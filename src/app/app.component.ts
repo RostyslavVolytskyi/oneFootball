@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
 		this.getData().subscribe((data: any) => {
 			this.players = data.data.team.players;
-			console.log(this.players);
 		});
 	}
 
@@ -29,9 +28,8 @@ export class AppComponent implements OnInit {
 			})
 	}
 
-  onDrop(data: any) {
-  	this.playerData = data;
-    console.log('dropped:', data);
+  onDrop(data: any, playerComp: any) {
+  	this.playerData = {data, id: playerComp.viewContainerRef.element.nativeElement.id};
   }
 
 }

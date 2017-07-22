@@ -8,7 +8,7 @@
 <div class="football-content">
 
   <div class="player-table">
-    <div class="player-card" *ngFor="let index = index; let player of players" id="drag{{index}}" draggable="true" (dragstart)="dragPlayer(player)">
+    <div class="player-card" *ngFor="let player of players" [myDraggable]="{data: player}">
       <div class="player-row">
       <span>
         <span>{{player.name}}</span>
@@ -24,27 +24,27 @@
   <div class="filed">
     <div class="goalkeeper-container">
       <span class="goalkeeper-a"></span>
-      <player class="goalkeeper-b"></player>
+      <player class="goalkeeper-b" myDropTarget (myDrop)="onDrop($event)"></player>
       <span class="goalkeeper-c"></span>
     </div>
 
     <div class="row-container">
-      <player class="defense-a"></player>
-      <player class="defense-b"></player>
-      <player class="defense-c"></player>
-      <player class="defense-d"></player>
+      <player class="player-a"></player>
+      <player class="player-b"></player>
+      <player class="player-c"></player>
+      <player class="player-d"></player>
     </div>
     <div class="row-container">
-      <player class="defense-a"></player>
-      <player class="defense-b"></player>
-      <player class="defense-c"></player>
-      <player class="defense-d"></player>
+      <player class="player-a"></player>
+      <player class="player-b"></player>
+      <player class="player-c"></player>
+      <player class="player-d"></player>
     </div>
     <div class="row-container">
-      <span class="defense-a"></span>
-      <player class="defense-b"></player>
-      <player class="defense-c"></player>
-      <span class="defense-d"></span>
+      <span class="player-a"></span>
+      <player class="player-b"></player>
+      <player class="player-c"></player>
+      <span class="player-d"></span>
     </div> 
   </div>
 

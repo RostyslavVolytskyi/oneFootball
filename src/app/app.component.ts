@@ -28,23 +28,8 @@ export class AppComponent implements OnInit {
 			})
 	}
 
-	allowDrop(ev) {
-		console.log(ev);
-    // ev.preventDefault();
-	}
-
-	dragPlayer(ev) {
-		console.log(ev);
-		// ev.dataTransfer.setData("text/html", "<p>Example paragraph</p>");
-    // ev.dataTransfer.setData("text", ev.target.id);
-	}
-
-	dropPlayer(ev) {
-		console.log(ev);
-
-    // ev.preventDefault();
-    // var data = ev.dataTransfer.getData("text");
-    // ev.target.appendChild(document.getElementById(data));
-	}
+  onDrop(data: any) {
+    console.log('dropped:', data);
+  }
 
 }

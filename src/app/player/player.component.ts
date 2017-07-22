@@ -13,7 +13,7 @@ export class PlayerComponent implements OnChanges {
 
   constructor(private viewContainerRef: ViewContainerRef) { }
 
-  ngOnChanges() {
+  ngOnChanges(): void {
   	if(this.playerData) {
   		let id = this.viewContainerRef.element.nativeElement.id;
 	  	if(this.playerData.playerId == id) {

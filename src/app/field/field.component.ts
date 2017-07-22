@@ -13,7 +13,7 @@ export class FieldComponent {
 
   constructor() { }
 
-  onDrop(data: PlayerData, playerCompData: PlayerCompData) {
+  onDrop(data: PlayerData, playerCompData: PlayerCompData): void {
   	let playerId = playerCompData.viewContainerRef.element.nativeElement.id;
   	this.playerData = {data, playerId};
   }

@@ -22,7 +22,7 @@ describe('PlayerComponent', () => {
       height: 173,
       id: '23',
       name: 'Rostyslav Volytskyi',
-      thumbnailSrc: 'src/img/...',
+      thumbnailSrc: './src/img/...',
       weight: 71
   	},
     playerId: '23'
@@ -52,8 +52,11 @@ describe('PlayerComponent', () => {
     expect(el).toBeTruthy();
   });
 
-  xit('should appear "img" tag after we have playerInfo data', () => {
-    expect(el.style.backgroundColor).toBe('blue');
+  it('should disappear "img" tag after we have playerInfo data', () => {
+    component.playerInfo = undefined;
+    fixture.detectChanges();
+    de = fixture.debugElement.query(By.css('img'));
+    expect(de).toBe(null);
   });
 
   it('should appear "img" tag after we have playerInfo data', () => {

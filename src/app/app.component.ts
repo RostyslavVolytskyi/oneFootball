@@ -11,6 +11,7 @@ import 'rxjs/add/operator/map';
 export class AppComponent implements OnInit {
   title = 'app';
   players: any = [];
+  playerData: any;
 
   constructor(private http: Http) { } 
 
@@ -29,6 +30,7 @@ export class AppComponent implements OnInit {
 	}
 
   onDrop(data: any) {
+  	this.playerData = data;
     console.log('dropped:', data);
   }
 

@@ -24,26 +24,26 @@
   <div class="filed">
     <div class="goalkeeper-container">
       <span class="goalkeeper-a"></span>
-      <player class="goalkeeper-b" myDropTarget (myDrop)="onDrop($event)"></player>
+      <player class="goalkeeper-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
       <span class="goalkeeper-c"></span>
     </div>
 
     <div class="row-container">
-      <player class="player-a"></player>
-      <player class="player-b"></player>
-      <player class="player-c"></player>
-      <player class="player-d"></player>
+      <player class="player-a" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-c" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-d" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
     </div>
     <div class="row-container">
-      <player class="player-a"></player>
-      <player class="player-b"></player>
-      <player class="player-c"></player>
-      <player class="player-d"></player>
+      <player class="player-a" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-c" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-d" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
     </div>
     <div class="row-container">
       <span class="player-a"></span>
-      <player class="player-b"></player>
-      <player class="player-c"></player>
+      <player class="player-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="player-c" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
       <span class="player-d"></span>
     </div> 
   </div>

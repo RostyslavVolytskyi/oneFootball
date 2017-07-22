@@ -1,0 +1,639 @@
+{
+   "data" : {
+      "team" : {
+         "logoUrls" : [
+            {
+               "size" : "56x56",
+               "url" : "https://images.onefootball.com/icons/teams/56/6.png"
+            },
+            {
+               "url" : "https://images.onefootball.com/icons/teams/164/6.png",
+               "size" : "164x164"
+            }
+         ],
+         "competitions" : [
+            {
+               "competitionName" : "Bundesliga",
+               "competitionId" : 1
+            },
+            {
+               "competitionName" : "Champions League",
+               "competitionId" : 5
+            },
+            {
+               "competitionName" : "DFB Pokal",
+               "competitionId" : 4
+            },
+            {
+               "competitionName" : "DFL Supercup",
+               "competitionId" : 55
+            },
+            {
+               "competitionId" : 90,
+               "competitionName" : "International Champions Cup"
+            },
+            {
+               "competitionName" : "Audi Cup",
+               "competitionId" : 93
+            },
+            {
+               "competitionName" : "Club Friendly Games",
+               "competitionId" : 140
+            },
+            {
+               "competitionName" : "Telekom Cup",
+               "competitionId" : 370
+            }
+         ],
+         "isNational" : false,
+         "officials" : [
+            {
+               "position" : "Coach",
+               "countryName" : "Italy",
+               "id" : "48267",
+               "country" : "IT",
+               "firstName" : "Carlo",
+               "lastName" : "Ancelotti"
+            }
+         ],
+         "players" : [
+            {
+               "id" : "1264",
+               "birthDate" : "1986-03-27",
+               "name" : "Manuel Neuer",
+               "lastName" : "Neuer",
+               "firstName" : "Manuel",
+               "age" : "31",
+               "number" : 1,
+               "weight" : 92,
+               "country" : "Germany",
+               "height" : 193,
+               "thumbnailSrc" : "https://images.onefootball.com/players/1264.jpg",
+               "position" : "Goalkeeper"
+            },
+            {
+               "position" : "Defender",
+               "thumbnailSrc" : "https://images.onefootball.com/players/3737.jpg",
+               "height" : 172,
+               "country" : "Brazil",
+               "weight" : 68,
+               "number" : 13,
+               "age" : "31",
+               "id" : "3737",
+               "birthDate" : "1985-09-07",
+               "firstName" : "Márcio Rafael",
+               "name" : "Rafinha",
+               "lastName" : "Ferreira de Souza"
+            },
+            {
+               "country" : "Germany",
+               "height" : 192,
+               "thumbnailSrc" : "https://images.onefootball.com/players/1265.jpg",
+               "position" : "Defender",
+               "lastName" : "Boateng",
+               "birthDate" : "1988-09-03",
+               "name" : "Jérôme Boateng",
+               "firstName" : "Jérôme",
+               "id" : "1265",
+               "age" : "28",
+               "number" : 17,
+               "weight" : 90
+            },
+            {
+               "position" : "Defender",
+               "thumbnailSrc" : "https://images.onefootball.com/players/181.jpg",
+               "height" : 180,
+               "country" : "Austria",
+               "weight" : 76,
+               "number" : 27,
+               "age" : "25",
+               "name" : "David Alaba",
+               "birthDate" : "1992-06-24",
+               "firstName" : "David",
+               "lastName" : "Alaba",
+               "id" : "181"
+            },
+            {
+               "number" : 6,
+               "weight" : 70,
+               "birthDate" : "1991-04-11",
+               "name" : "Thiago Alcántara",
+               "firstName" : "Thiago",
+               "lastName" : "Alcántara do Nascimento",
+               "id" : "149",
+               "age" : "26",
+               "thumbnailSrc" : "https://images.onefootball.com/players/149.jpg",
+               "position" : "Midfielder",
+               "country" : "Spain",
+               "height" : 174
+            },
+            {
+               "height" : 170,
+               "country" : "France",
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/168.jpg",
+               "age" : "34",
+               "id" : "168",
+               "firstName" : "Franck",
+               "birthDate" : "1983-04-07",
+               "name" : "Franck Ribéry",
+               "lastName" : "Ribéry",
+               "number" : 7,
+               "weight" : 72
+            },
+            {
+               "country" : "Spain",
+               "height" : 190,
+               "thumbnailSrc" : "https://images.onefootball.com/players/1676.jpg",
+               "position" : "Defender",
+               "id" : "1676",
+               "name" : "Javi Martínez",
+               "birthDate" : "1988-09-02",
+               "firstName" : "Javier",
+               "lastName" : "Martínez Aguinaga",
+               "age" : "28",
+               "weight" : 81,
+               "number" : 8
+            },
+            {
+               "id" : "180",
+               "birthDate" : "1984-01-23",
+               "firstName" : "Arjen",
+               "name" : "Arjen Robben",
+               "lastName" : "Robben",
+               "age" : "33",
+               "number" : 10,
+               "weight" : 80,
+               "country" : "Netherlands",
+               "height" : 180,
+               "thumbnailSrc" : "https://images.onefootball.com/players/180.jpg",
+               "position" : "Midfielder"
+            },
+            {
+               "age" : "27",
+               "id" : "173",
+               "birthDate" : "1989-09-13",
+               "name" : "Thomas Müller",
+               "firstName" : "Thomas",
+               "lastName" : "Müller",
+               "weight" : 75,
+               "number" : 25,
+               "height" : 186,
+               "country" : "Germany",
+               "position" : "Forward",
+               "thumbnailSrc" : "https://images.onefootball.com/players/173.jpg"
+            },
+            {
+               "age" : "28",
+               "id" : "1992",
+               "birthDate" : "1988-08-21",
+               "lastName" : "Lewandowski",
+               "name" : "Robert Lewandowski",
+               "firstName" : "Robert",
+               "number" : 9,
+               "weight" : 79,
+               "height" : 185,
+               "country" : "Poland",
+               "position" : "Forward",
+               "thumbnailSrc" : "https://images.onefootball.com/players/1992.jpg"
+            },
+            {
+               "weight" : 84,
+               "number" : 26,
+               "age" : "28",
+               "birthDate" : "1988-08-03",
+               "lastName" : "Ulreich",
+               "name" : "Sven Ulreich",
+               "firstName" : "Sven",
+               "id" : "977",
+               "position" : "Goalkeeper",
+               "thumbnailSrc" : "https://images.onefootball.com/players/977.jpg",
+               "height" : 192,
+               "country" : "Germany"
+            },
+            {
+               "height" : 176,
+               "country" : "Germany",
+               "position" : "Defender",
+               "thumbnailSrc" : "https://images.onefootball.com/players/50793.jpg",
+               "age" : "22",
+               "id" : "50793",
+               "birthDate" : "1995-02-08",
+               "name" : "Joshua Kimmich",
+               "lastName" : "Kimmich",
+               "firstName" : "Joshua",
+               "weight" : 70,
+               "number" : 32
+            },
+            {
+               "height" : 180,
+               "country" : "Chile",
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/1203.jpg",
+               "age" : "30",
+               "id" : "1203",
+               "birthDate" : "1987-05-22",
+               "name" : "Arturo Vidal",
+               "lastName" : "Vidal",
+               "firstName" : "Arturo",
+               "number" : 23,
+               "weight" : 75
+            },
+            {
+               "lastName" : "Coman",
+               "birthDate" : "1996-06-13",
+               "name" : "Kingsley Coman",
+               "firstName" : "Kingsley",
+               "id" : "43151",
+               "age" : "21",
+               "number" : 29,
+               "weight" : 71,
+               "country" : "France",
+               "height" : 178,
+               "thumbnailSrc" : "https://images.onefootball.com/players/43151.jpg",
+               "position" : "Midfielder"
+            },
+            {
+               "position" : "Defender",
+               "thumbnailSrc" : "https://images.onefootball.com/players/3558.jpg",
+               "height" : 191,
+               "country" : "Germany",
+               "weight" : 92,
+               "number" : 5,
+               "age" : "28",
+               "id" : "3558",
+               "lastName" : "Hummels",
+               "birthDate" : "1988-12-16",
+               "name" : "Mats Hummels",
+               "firstName" : "Mats"
+            },
+            {
+               "height" : 176,
+               "country" : "Portugal",
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/95693.jpg",
+               "age" : "19",
+               "id" : "95693",
+               "birthDate" : "1997-08-18",
+               "name" : "Renato Sanches",
+               "lastName" : "Luz Sanches",
+               "firstName" : "Renato Júnior",
+               "weight" : 70,
+               "number" : 35
+            },
+            {
+               "thumbnailSrc" : "https://images.onefootball.com/players/136446.jpg",
+               "position" : "Midfielder",
+               "country" : "Croatia",
+               "height" : 180,
+               "weight" : 74,
+               "number" : 40,
+               "id" : "136446",
+               "name" : "Fabian Benko",
+               "birthDate" : "1998-06-05",
+               "lastName" : "Benko",
+               "firstName" : "Fabian",
+               "age" : "19"
+            },
+            {
+               "country" : "Germany",
+               "height" : 195,
+               "thumbnailSrc" : "https://images.onefootball.com/players/48080.jpg",
+               "position" : "Defender",
+               "id" : "48080",
+               "firstName" : "Niklas",
+               "birthDate" : "1995-09-03",
+               "name" : "Niklas Süle",
+               "lastName" : "Süle",
+               "age" : "21",
+               "number" : 4,
+               "weight" : 97
+            },
+            {
+               "number" : 19,
+               "weight" : 74,
+               "age" : "27",
+               "id" : "980",
+               "name" : "Sebastian Rudy",
+               "birthDate" : "1990-02-28",
+               "lastName" : "Rudy",
+               "firstName" : "Sebastian",
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/980.jpg",
+               "height" : 180,
+               "country" : "Germany"
+            },
+            {
+               "thumbnailSrc" : "https://images.onefootball.com/players/54153.jpg",
+               "position" : "Midfielder",
+               "country" : "France",
+               "height" : 181,
+               "number" : 24,
+               "weight" : 78,
+               "id" : "54153",
+               "firstName" : "Corentin",
+               "birthDate" : "1994-08-03",
+               "name" : "Corentin Tolisso",
+               "lastName" : "Tolisso",
+               "age" : "22"
+            },
+            {
+               "id" : "35994",
+               "birthDate" : "1995-07-14",
+               "lastName" : "Gnabry",
+               "name" : "Serge Gnabry",
+               "firstName" : "Serge",
+               "age" : "22",
+               "number" : 0,
+               "weight" : 73,
+               "country" : "Germany",
+               "height" : 173,
+               "thumbnailSrc" : "https://images.onefootball.com/players/35994.jpg",
+               "position" : "Midfielder"
+            },
+            {
+               "thumbnailSrc" : "https://images.onefootball.com/default/default_player.png",
+               "position" : "Defender",
+               "country" : "Germany",
+               "height" : 185,
+               "number" : 20,
+               "weight" : 78,
+               "id" : "183565",
+               "birthDate" : "1998-02-11",
+               "name" : "Felix Götze",
+               "firstName" : "Felix",
+               "lastName" : "Götze",
+               "age" : "19"
+            },
+            {
+               "age" : "26",
+               "lastName" : "Rodríguez",
+               "birthDate" : "1991-07-12",
+               "name" : "James Rodríguez",
+               "firstName" : "James",
+               "id" : "2314",
+               "number" : 11,
+               "weight" : 75,
+               "height" : 180,
+               "country" : "Colombia",
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/2314.jpg"
+            },
+            {
+               "position" : "Goalkeeper",
+               "thumbnailSrc" : "https://images.onefootball.com/players/3470.jpg",
+               "height" : 194,
+               "country" : "Germany",
+               "number" : 22,
+               "weight" : 98,
+               "age" : "36",
+               "id" : "3470",
+               "birthDate" : "1981-03-18",
+               "name" : "Tom Starke",
+               "lastName" : "Starke",
+               "firstName" : "Tom"
+            },
+            {
+               "id" : "214882",
+               "name" : "Christian Früchtl",
+               "birthDate" : "2000-01-28",
+               "firstName" : "Christian",
+               "lastName" : "Früchtl",
+               "age" : "17",
+               "weight" : 0,
+               "number" : 36,
+               "country" : "Germany",
+               "height" : 190,
+               "thumbnailSrc" : "https://images.onefootball.com/default/default_player.png",
+               "position" : "Goalkeeper"
+            },
+            {
+               "number" : 14,
+               "weight" : 67,
+               "age" : "24",
+               "name" : "Juan Bernat",
+               "birthDate" : "1993-03-01",
+               "firstName" : "Juan",
+               "lastName" : "Bernat",
+               "id" : "23824",
+               "position" : "Defender",
+               "thumbnailSrc" : "https://images.onefootball.com/players/23824.jpg",
+               "height" : 170,
+               "country" : "Spain"
+            },
+            {
+               "number" : 34,
+               "weight" : 71,
+               "birthDate" : "1998-03-16",
+               "lastName" : "Friedl",
+               "name" : "Marco Friedl",
+               "firstName" : "Marco",
+               "id" : "202017",
+               "age" : "19",
+               "thumbnailSrc" : "https://images.onefootball.com/default/default_player.png",
+               "position" : "Defender",
+               "country" : "Austria",
+               "height" : 187
+            },
+            {
+               "position" : "Midfielder",
+               "thumbnailSrc" : "https://images.onefootball.com/players/185627.jpg",
+               "height" : 175,
+               "country" : "Germany",
+               "number" : 30,
+               "weight" : 72,
+               "age" : "19",
+               "id" : "185627",
+               "name" : "Niklas Dorsch",
+               "birthDate" : "1998-01-15",
+               "firstName" : "Niklas",
+               "lastName" : "Dorsch"
+            }
+         ],
+         "id" : 6,
+         "name" : "FC Bayern Munich",
+         "matches" : {
+            "next" : {
+               "competitionId" : 370,
+               "status" : "PreMatch",
+               "kickoff" : "2017-07-15T13:15:00Z",
+               "minute" : 0,
+               "id" : 554816,
+               "teamhome" : {
+                  "colors" : {
+                     "shirtColorHome" : "FF0000",
+                     "mainColor" : "ED1148",
+                     "crestMainColor" : "ED1148",
+                     "shirtColorAway" : "FFFFFF"
+                  },
+                  "idInternal" : 6,
+                  "logoUrls" : [
+                     {
+                        "size" : "56x56",
+                        "url" : "https://images.onefootball.com/icons/teams/56/6.png"
+                     },
+                     {
+                        "size" : "164x164",
+                        "url" : "https://images.onefootball.com/icons/teams/164/6.png"
+                     }
+                  ],
+                  "id" : 156,
+                  "name" : "FC Bayern Munich"
+               },
+               "matchday" : {
+                  "id" : 5675696
+               },
+               "teamaway" : {
+                  "name" : "Hoffenheim",
+                  "id" : 1902,
+                  "colors" : {
+                     "shirtColorAway" : "FFFF00",
+                     "mainColor" : "004997",
+                     "shirtColorHome" : "0000CC",
+                     "crestMainColor" : "004997"
+                  },
+                  "idInternal" : 158,
+                  "logoUrls" : [
+                     {
+                        "url" : "https://images.onefootball.com/icons/teams/56/158.png",
+                        "size" : "56x56"
+                     },
+                     {
+                        "size" : "164x164",
+                        "url" : "https://images.onefootball.com/icons/teams/164/158.png"
+                     }
+                  ]
+               },
+               "stadiumId" : 0,
+               "matchdayId" : 5675696,
+               "scoreaway" : "-1",
+               "seasonId" : 6464,
+               "scorehome" : "-1"
+            },
+            "last" : {
+               "scoreaway" : "9",
+               "scorehome" : "1",
+               "seasonId" : 1779,
+               "matchdayId" : 5670971,
+               "teamaway" : {
+                  "name" : "FC Bayern Munich",
+                  "id" : 156,
+                  "colors" : {
+                     "shirtColorAway" : "FFFFFF",
+                     "crestMainColor" : "ED1148",
+                     "shirtColorHome" : "FF0000",
+                     "mainColor" : "ED1148"
+                  },
+                  "idInternal" : 6,
+                  "logoUrls" : [
+                     {
+                        "url" : "https://images.onefootball.com/icons/teams/56/6.png",
+                        "size" : "56x56"
+                     },
+                     {
+                        "url" : "https://images.onefootball.com/icons/teams/164/6.png",
+                        "size" : "164x164"
+                     }
+                  ]
+               },
+               "stadiumId" : 0,
+               "teamhome" : {
+                  "name" : "FSV Erlangen-Bruck",
+                  "colors" : {
+                     "shirtColorHome" : "",
+                     "mainColor" : "",
+                     "crestMainColor" : "",
+                     "shirtColorAway" : ""
+                  },
+                  "idInternal" : 3714,
+                  "logoUrls" : [
+                     {
+                        "size" : "56x56",
+                        "url" : "https://images.onefootball.com/icons/teams/56/3714.png"
+                     },
+                     {
+                        "size" : "164x164",
+                        "url" : "https://images.onefootball.com/icons/teams/164/3714.png"
+                     }
+                  ]
+               },
+               "matchday" : {
+                  "id" : 5670971
+               },
+               "id" : 542983,
+               "minute" : 90,
+               "kickoff" : "2017-07-09T15:00:00Z",
+               "competitionId" : 140,
+               "status" : "FullTime"
+            },
+            "following" : {
+               "teamhome" : {
+                  "name" : "FC Bayern Munich",
+                  "id" : 156,
+                  "logoUrls" : [
+                     {
+                        "size" : "56x56",
+                        "url" : "https://images.onefootball.com/icons/teams/56/6.png"
+                     },
+                     {
+                        "size" : "164x164",
+                        "url" : "https://images.onefootball.com/icons/teams/164/6.png"
+                     }
+                  ],
+                  "idInternal" : 6,
+                  "colors" : {
+                     "crestMainColor" : "ED1148",
+                     "shirtColorHome" : "FF0000",
+                     "mainColor" : "ED1148",
+                     "shirtColorAway" : "FFFFFF"
+                  }
+               },
+               "matchday" : {
+                  "id" : 5672457
+               },
+               "teamaway" : {
+                  "name" : "Arsenal",
+                  "id" : 3,
+                  "logoUrls" : [
+                     {
+                        "size" : "56x56",
+                        "url" : "https://images.onefootball.com/icons/teams/56/2.png"
+                     },
+                     {
+                        "size" : "164x164",
+                        "url" : "https://images.onefootball.com/icons/teams/164/2.png"
+                     }
+                  ],
+                  "idInternal" : 2,
+                  "colors" : {
+                     "crestMainColor" : "CB0338",
+                     "mainColor" : "CC0000",
+                     "shirtColorHome" : "CC0000",
+                     "shirtColorAway" : "FFCC33"
+                  }
+               },
+               "stadiumId" : 2295,
+               "matchdayId" : 5672457,
+               "scoreaway" : "-1",
+               "seasonId" : 1948,
+               "scorehome" : "-1",
+               "competitionId" : 90,
+               "status" : "PreMatch",
+               "kickoff" : "2017-07-19T11:20:00Z",
+               "minute" : 0,
+               "id" : 527621
+            }
+         },
+         "colors" : {
+            "mainColor" : "ED1148",
+            "shirtColorHome" : "FF0000",
+            "crestMainColor" : "ED1148",
+            "shirtColorAway" : "FFFFFF"
+         },
+         "optaId" : 0
+      }
+   },
+   "code" : 0,
+   "message" : "Team feed successfully generated",
+   "status" : "ok"
+}

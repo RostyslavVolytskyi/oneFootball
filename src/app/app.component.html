@@ -24,7 +24,7 @@
   <div class="filed">
     <div class="goalkeeper-container">
       <span class="goalkeeper-a"></span>
-      <player class="goalkeeper-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData"></player>
+      <player class="goalkeeper-b" myDropTarget (myDrop)="onDrop($event)" [playerData]="playerData" [myDraggable]="{data: playerData}"></player>
       <span class="goalkeeper-c"></span>
     </div>
 

@@ -29,7 +29,8 @@ export class AppComponent implements OnInit {
 	}
 
   onDrop(data: any, playerComp: any) {
-  	this.playerData = {data, id: playerComp.viewContainerRef.element.nativeElement.id};
+  	let playerId = playerComp.viewContainerRef.element.nativeElement.id;
+  	this.playerData = {data, playerId};
   }
 
 }

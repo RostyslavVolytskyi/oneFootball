@@ -11,7 +11,7 @@
     <div class="player-card" *ngFor="let player of players" [myDraggable]="{data: player}">
       <div class="player-row">
       <span>
-        <span>{{player.name}}</span>
+        <span><b>{{player.name}}</b></span>
       </span>
       <span class="player-data">
         <span>{{player.number}}</span>
@@ -21,10 +21,10 @@
     </div>
   </div>
 
-  <div class="filed">
+  <div class="field">
     <div class="goalkeeper-container">
       <span class="goalkeeper-a"></span>
-      <player id="goalkeeper" class="goalkeeper-b" #goalkeeper myDropTarget (myDrop)="onDrop($event, goalkeeper)" [playerData]="playerData" [myDraggable]="{data: playerData}"></player>
+      <player id="goalkeeper" class="goalkeeper-b" #goalkeeper myDropTarget (myDrop)="onDrop($event, goalkeeper)" [playerData]="playerData"></player>
       <span class="goalkeeper-c"></span>
     </div>
 

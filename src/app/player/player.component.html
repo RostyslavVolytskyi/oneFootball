@@ -1,9 +1,16 @@
-<div class="icon" *ngIf="!playerInfo"></div>
-<div *ngIf="playerInfo" class="player-profile">
-	<img src="{{playerInfo.data.thumbnailSrc}}" alt="playe photo">
-	<div class='player-data'>
-		<span>{{playerInfo.data.firstName}} {{playerInfo.data.lastName}}</span>
-		<span>Position: {{playerInfo.data.position}}</span>
-		<span>Number: {{playerInfo.data.number}}</span>
-	</div>
-</div>
+<div class="icon" *ngIf="!playerInfo; else visualPlayer"></div>
+
+
+<ng-template #visualPlayer>
+	<div class="player-profile">
+		<img src="{{playerInfo.data.thumbnailSrc}}" alt="playe photo" [draggable]="false">
+		<div class='player-data'>
+			<span>{{playerInfo.data.firstName}} {{playerInfo.data.lastName}}</span>
+			<span>Position: {{playerInfo.data.position}}</span>
+			<span>Number: {{playerInfo.data.number}}</span>
+		</div>
+	</div>	
+</ng-template>
+
+
+

@@ -2,7 +2,6 @@ import { Directive, EventEmitter, HostListener, HostBinding, Input, Output } fro
 
 import { DragService } from './drag.service';
 
-
 @Directive({
   selector: '[myDropTarget]'
 })
